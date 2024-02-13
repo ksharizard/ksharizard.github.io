@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+	
+	{% block content %}
+	<div class="crt scanlines">
+	<pre>
+             _______________                        |*\_/*|________
+            |  ___________  |     .-.     .-.      ||_/-\_|______  |
+            | |           | |    .****. .****.     | |           | |
+            | |   0   0   | |    .*****.*****.     | |   0   0   | |
+            | |     -     | |     .*********.      | |     -     | |
+            | |   \___/   | |      .*******.       | |   \___/   | |
+            | |___     ___| |       .*****.        | |___________| |
+            |_____|\_/|_____|        .***.         |_______________|
+              _|__|/ \|_|_.............*.............._|________|_
+             / ********** \                          / ********** \
+           /  ************  \                      /  ************  \
+          --------------------                    --------------------
+  </pre>
+  </div>
+  <p>
+  <center><h1> Welcome to my Profile! </h1></center>
+
+  My name is Kshamendra. I am a teen programmer who enjoys technology and coding.
+
+  <center><h2> Socials </h2></center
+
+  <ul>
+    <li>[Github](https://github.com/GhoulBoii)</li>
+  </ul>
+  </p>
+	
+	{{ section.content | safe }}
+	{% endblock content %}

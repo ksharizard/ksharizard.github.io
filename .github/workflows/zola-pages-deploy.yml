@@ -1,54 +1,49 @@
-name: Continuous Delivery
+# https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables
+# https://www.getzola.org/documentation/deployment/github-pages/
+name: Deploy Zola Site to GitHub Pages
+run-name: ${{ github.actor }}'s building & deploying the zola site to GitHub Pages! 
 
 on:
   push:
-    branches: [master]
+    branches:
+      - main 
 
-  pull_request:
-    branches: [master]
+  #pull_request:
 
+  # Allows workflow to be manually run from the Actions tab
   workflow_dispatch:
-
-permissions:
-  pages: write
-  contents: read
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
+  
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    # Build, not deploy, iff PR
+    if: github.ref != 'refs/heads/main'
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Checkout main code so workflow can be accessed
+        uses: actions/checkout@v3.0.0
 
-      - name: Install Zola
-        uses: taiki-e/install-action@v2
-        with:
-          tool: zola
-
-      - name: Build site
-        run: zola build
-
-      - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public/
-
-  deploy:
-    needs: build
-
+      - name: build and deploy zola site to the main branch as GitHub Pages
+        uses: shalzz/zola-deploy-action@master
+        env:
+          # https://github.com/shalzz/zola-deploy-action#environment-variables
+          BUILD_DIR: public
+          BUILD_ONLY: true
+          BUILD_FLAGS: --drafts
+          # A GitHub token is not necessary when BUILD_ONLY is true
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+  build_and_deploy:
     runs-on: ubuntu-latest
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    if: github.ref == 'refs/heads/main'
+    name: Build zola site + Deploy to GitHub Pages
 
     steps:
-      - name: Deploy artifact to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Checkout main code so workflow can be accessed
+        uses: actions/checkout@v3.0.0
+
+      - name: build and deploy zola site to the main branch as GitHub Pages
+        uses: shalzz/zola-deploy-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAGES_ZOLA_TOKEN }}
+          OUT_DIR: public
+          PAGES_BRANCH: gh-pages

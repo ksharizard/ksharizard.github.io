@@ -1,6 +1,6 @@
 title = "GhoulDen"
 theme = "duckquill"
-base_url = "https://example.com"
+base_url = "https://ghoulboii.github.io/"
 
 compile_sass = true
 build_search_index = false

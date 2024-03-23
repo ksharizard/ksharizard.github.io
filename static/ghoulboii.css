@@ -6,7 +6,6 @@
   box-shadow:unset;
   margin:unset;
   text-align: center !important;
-  white-space: pre-wrap !important;
   animation:flicker 250ms alternate infinite
 }
 @keyframes flicker {

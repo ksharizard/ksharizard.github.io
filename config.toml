@@ -12,7 +12,7 @@ highlight_code = true
 primary_color = "#fa69ff"
 primary_color_alpha = "rgba(250, 105, 255, 0.2)"
 stylesheets = [
-  "ghoulboii.css"
+  "main.css"
 ]
 issues_url = "https://github.com/GhoulBoii/GhoulBoii.github.io/issues"
 source_url = "https://github.com/GhoulBoii/GhoulBoii.github.io"

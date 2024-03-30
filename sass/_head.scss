@@ -1,0 +1,55 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ff00e3;
+  font-family: var(--font-serif);
+  font-weight: lighter;
+  line-height: 1.25;
+  margin: 3rem 0 1rem;
+
+  .zola-anchor {
+    display: none;
+    visibility: hidden;
+  }
+
+  &:hover .zola-anchor {
+    display: inline-block;
+    text-decoration: none;
+    visibility: visible;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  letter-spacing: -0.15rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  letter-spacing: -0.15rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  letter-spacing: -0.1rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  letter-spacing: -0.05rem;
+}
+
+h5 {
+  font-size: 1rem;
+  letter-spacing: -0.05rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+

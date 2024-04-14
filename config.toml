@@ -22,7 +22,7 @@ show_feed = true
 # Links used in the nav
 links = [
   { url = "@/blog/_index.md", name = "Blog" },
-  { url = "@/design/index.md", name = "Design" },
+  { url = "@/projects/index.md", name = "Projects" },
   { url = "@/about/index.md", name = "About" },
 ]
 

@@ -11,20 +11,19 @@ highlight_code = true
 [extra]
 primary_color = "#fa69ff"
 primary_color_alpha = "rgba(250, 105, 255, 0.2)"
-stylesheets = [
-  "main.css"
-]
+stylesheets = ["main.css"]
 issues_url = "https://github.com/GhoulBoii/GhoulBoii.github.io/issues"
 source_url = "https://github.com/GhoulBoii/GhoulBoii.github.io"
+date_format = "%d %B %Y"
 
 [extra.nav]
 # Display Atom/RSS feed button in the nav
 show_feed = true
 # Links used in the nav
 links = [
-  {url = "$BASE_URL/posts", name = "Posts"},
-  {url = "$BASE_URL/projects", name = "Projects"},
-  {url = "$BASE_URL/about", name = "About"},
+  { url = "@/blog/_index.md", name = "Blog" },
+  { url = "@/design/index.md", name = "Design" },
+  { url = "@/about/index.md", name = "About" },
 ]
 
 [extra.comments]

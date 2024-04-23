@@ -1,0 +1,22 @@
+.project {
+  flex: 50%;
+  padding-right: 20px;
+  padding-bottom: 28px;
+}
+.project-post {
+  margin-top: 0px;
+  color: var(--light-text);
+}
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 720px) {
+  .project-list {
+    display: block;
+  }
+  .project {
+    padding-right: 0px;
+  }
+}

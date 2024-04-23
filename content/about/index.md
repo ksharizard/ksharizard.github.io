@@ -3,7 +3,7 @@
 
 <div class="about-header">
 <h1 align="center" style="margin-bottom:0;"> Kshamendra Kumar Mishra </h1>
-<h6 align="center" style="margin:0;color:#ffa4ec";> Self-Taught Programmer and Passionate Open-Source Lover </h3>
+<h4 align="center" style="margin:0;color:#ffa4ec;"> Self-Taught Programmer and Passionate Open-Source Lover </h4>
 </div>
 
 # About Me
@@ -13,6 +13,8 @@ My name is <b>Kshamendra Kumar Mishra</b>. I am a self-taught programmer who lov
 - Fell in love with programming at the age of 8
 - Love playing basketball and chess
 - Can speak English and Hindi
+
+# Gaming
 
 # Programming Expertise
 

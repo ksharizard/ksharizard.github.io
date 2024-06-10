@@ -21,8 +21,3 @@ My name is <b>Kshamendra Kumar Mishra</b>. I am a self-taught programmer who lov
 I am well-skilled in <b>Bash, Python and Java</b>. Many of my [projects](https://ghoulboii.github.io/projects/) consist of these languages, plus powershell, css, html, lua and C.
 
 I also have knowledge in DevOps technologies as well, like docker, git and Github actions.
-
-# Beliefs
-
-I believe in the power of critical thought and the scientific process, as well as the concept that all people deserve fair and equitable access to all things. I also think that big-tech companies and individuals should keep their software as open-source and privacy-oriented to the best of their abilities and provide tools for the community to contribute, modify and redistribute. Most importantly, I believe in a world full of happiness and laughter :)
-

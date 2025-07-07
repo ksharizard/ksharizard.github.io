@@ -7,7 +7,7 @@
 <div class="project-list">
 <div class="project">
 
-[ArchLinux Installer](https://github.com/GhoulBoii/archinstaller)
+[Arch Linux Installer](https://github.com/GhoulBoii/arch-installer)
 
 Ksh's ArchLinux Auto-Ricing and Installing Scripts (with BTRFS Support, Suckless Utilities)
 </div>
@@ -26,7 +26,8 @@ Privacy-Oriented & Cross-Platform Firefox Ricing Script
 </div>
 <div class="project">
 
-[WinDots](https://github.com/GhoulBoii/windots)
+[Dotfiles](https://github.com/GhoulBoii/dotfiles)
 
-WIP
+Cross-Platform Chezmoi-Managed Dotfiles for Linux & Windows
+
 </div>

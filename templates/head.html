@@ -3,9 +3,9 @@
 	<meta charset="UTF-8" />
 	<meta name="description" content="{{ config.description }}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="theme-color" content="{{ config.extra.accent_color | default(value='#9a9996') | safe }}" />
+	<meta name="theme-color" content="{{ safe }}" />
 	{%- if config.extra.accent_color_dark %}
-		<meta name="theme-color" content="{{ config.extra.accent_color_dark | safe }}" media="(prefers-color-scheme:dark)" />
+		<meta name="theme-color" content="{{ safe }}" media="(prefers-color-scheme:dark)" />
 	{%- endif %}
 	{%- if config.extra.csp %}
 		{%- include "partials/csp.html" %}

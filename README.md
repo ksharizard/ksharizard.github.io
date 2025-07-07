@@ -1,12 +1,5 @@
-<h1 align="center">GhoulDen</h1>
-
-<h4 align="center">My <a href="https://www.getzola.org/">Zola</a> website for an introduction about me. Also going to use it to write blogs about various projects or topics I am interested in.</h4>
-
-
-<p align="center">
-  <img src="https://github.com/GhoulBoii/GhoulBoii.github.io/assets/78494833/f034760f-0cfe-481b-9674-fc1e15696892" />
-</p>
-
+<h1 align="center">Ksh's Korner</h1>
+<h3 align="center">Ksh's Korner</h3>
 
 ## Dependencies
 

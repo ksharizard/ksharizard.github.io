@@ -1,5 +1,5 @@
 <h1 align="center">Ksh's Korner</h1>
-<h3 align="center">Ksh's Korner</h3>
+<h3 align="center">Personal website</h3>
 
 ## Dependencies
 

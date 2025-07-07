@@ -18,11 +18,10 @@
 ```
 {% end %}
 
-<h1 align="center"> Welcome to my Website! </h1>
+<h1 align="center"> Hi, I am Kshamendra! </h1>
 
-  I like code.
+Welcome to my little corner of the internet!
 
-## Socials
+I am a student who loves contributing to open source technology.
 
-- [Github](https://github.com/GhoulBoii)
-
+Learn more [about me](https://ghoulboii.github.io/about/)

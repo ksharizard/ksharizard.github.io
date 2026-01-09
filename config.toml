@@ -55,9 +55,9 @@ bundled_fonts = true
 # emoji_favicon = "🦆🪶"
 #
 # URL to website's issue tracker
-issues_url = "https://github.com/GhoulBoii/ksharizard.github.io/issues"
+issues_url = "https://github.com/ksharizard/ksharizard.github.io/issues"
 # URL to website's source code
-source_url = "https://github.com/GhoulBoii/ksharizard.github.io"
+source_url = "https://github.com/ksharizard/ksharizard.github.io"
 # Additional CSS styles; expects them to be in the "./static/" directory.
 # If you are using Sass it will be generated there automatically.
 #

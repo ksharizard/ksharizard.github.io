@@ -18,6 +18,6 @@ My name is <b>Kshamendra Kumar Mishra</b>. I am a self-taught programmer who lov
 
 # Programming Expertise
 
-I am well-skilled in <b>Bash, Python and Java</b>. Many of my [projects](https://ghoulboii.github.io/projects/) consist of these languages, plus powershell, css, html, lua and C.
+I am well-skilled in <b>Bash, Python and Java</b>. Many of my [projects](https://ksharizard.github.io/projects/) consist of these languages, plus powershell, css, html, lua and C.
 
 I also have knowledge in DevOps technologies as well, like docker, git and Github actions.

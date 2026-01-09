@@ -24,4 +24,4 @@ Welcome to my little corner of the internet!
 
 I am a student who loves contributing to open source technology.
 
-Learn more [about me](https://ghoulboii.github.io/about/)
+Learn more [about me](https://ksharizard.github.io/about/)

@@ -3,13 +3,15 @@
 
 ## Dependencies
 
-- Zola
+- git
+- zola
 
-## Install
+## Build
 
 ```bash
-git clone https://github.com/ghoulboii/ghoulboii.github.io web
+git clone https://github.com/ksharizard/ksharizard.github.io web
 cd web
+git submodule update --init --recursive
 zola serve
 ```
 

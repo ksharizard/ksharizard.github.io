@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Ksh&#x27;s Korner</title>
+      <link>https://ksharizard.github.io/</link>
+      <description>My little corner of the internet</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://ksharizard.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Welcome to My Website!</title>
+          <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+          <author>Kshamendra Kumar Mishra</author>
+          <link>https://ksharizard.github.io/blog/1-welcome-to-my-blog/</link>
+          <guid>https://ksharizard.github.io/blog/1-welcome-to-my-blog/</guid>
+          <description xml:base="https://ksharizard.github.io/blog/1-welcome-to-my-blog/">&lt;p&gt;Hey! I am &lt;b&gt;Kshamendra&lt;&#x2F;b&gt;, popularly known as &lt;b&gt;GhoulBoi69&lt;&#x2F;b&gt;. I have created this website to share my thoughts and projects to the world. If you want to know more about me, you can do so &lt;a href=&quot;https:&#x2F;&#x2F;ksharizard.github.io&#x2F;about&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;pages-of-my-website&quot;&gt;Pages of my Website&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ksharizard.github.io&#x2F;blog&#x2F;&quot;&gt;Blog&lt;&#x2F;a&gt;: You are here! All my posts will be available here.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ksharizard.github.io&#x2F;about&#x2F;&quot;&gt;About&lt;&#x2F;a&gt;: Learn more about me.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ksharizard.github.io&#x2F;projects&#x2F;&quot;&gt;Projects&lt;&#x2F;a&gt;: My different coding or technology-related projects which range from my &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ksharizard&#x2F;dotfiles&quot;&gt;dotfiles&lt;&#x2F;a&gt; to my &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ksharizard&#x2F;basilisk&quot;&gt;automated minecraft server installer&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ksharizard.github.io&#x2F;atom.xml&quot;&gt;RSS&lt;&#x2F;a&gt;: Want to be informed about my future posts? Use my RSS link in your favourite RSS reader.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;future-plans&quot;&gt;Future Plans&lt;&#x2F;h2&gt;
+&lt;p&gt;I have tons of plans for this website. Some of them are as follows:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Get my own domain and self host my website&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Write posts on a consistent basis&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Add comments&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Make my own custom theme for the website&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;I am happy to finally have my own personal website. I am gonna try my best to write consistently on here and provide some useful (hopefully) information and some cool coding projects. See you around!&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
